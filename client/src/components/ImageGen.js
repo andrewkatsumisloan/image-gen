@@ -135,7 +135,7 @@ const ImageGen = () => {
             base64String && (
               <div>
                 <div>
-                  <p className="text-xl text-slate-100 italic font-[400] bg-gradient-to-r from-orange-300 to-red-700 w-fit mx-2 px-8 py-2 rounded-lg ">
+                  <p className="text-xl text-slate-100 italic font-[400] bg-gradient-to-r from-orange-300 to-red-700 w-fit mx-auto px-8 py-2 rounded-lg ">
                     {submitted}
                   </p>
                 </div>

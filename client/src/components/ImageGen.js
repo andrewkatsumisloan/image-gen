@@ -159,12 +159,12 @@ const ImageGen = () => {
       ) : (
         <div>
           <p className="text-xl mx-auto text-slate-100 italic font-[400] bg-gradient-to-r from-orange-300 to-red-700 w-fit px-8 py-2 rounded-3xl ">
-            What's the secret password, dumbass?
+            What's the secret password?
           </p>
           <form onSubmit={handleSubmit}>
             <input
               className="rounded-2xl p-3"
-              placeholder="Password please retard"
+              placeholder="Password please"
               value={password}
               onChange={handlePasswordChange}
             />

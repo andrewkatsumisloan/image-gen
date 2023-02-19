@@ -1,0 +1,19 @@
+version: '3.8'
+
+services: 
+  frontend: 
+    container_name: frontend
+    build: ./client
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./client:/app
+  backend: 
+    container_name: backend
+    build: ./server
+    ports: 
+      - "8000:8000"
+    env_file:
+      - ./server/.env
+    volumes:
+      - ./server:/app

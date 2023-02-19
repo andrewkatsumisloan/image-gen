@@ -5,7 +5,7 @@ const Header = () => {
     <div className="">
       <header className="mt-4">
         <div className="mb-4">
-          <p className="text-3xl italic shadow font-[400] w-fit px-20 py-2 rounded-3xl mx-auto bg-gradient-to-r from-orange-400 to-red-700 text-slate-200 font-semibold my-8">
+          <p className="text-3xl italic shadow-md md:mx-12 sm: mx-4 mx-24 md:mx-8 md:text-2xl sm:text-xl font-[400] px-20 py-2 rounded-3xl mx-auto bg-gradient-to-r from-orange-400 to-red-700 text-slate-200 font-semibold my-8">
             Text to Image Generator
           </p>
         </div>
